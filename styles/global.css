@@ -130,10 +130,6 @@ footer{
         width: 50rem;
     }
 
-    header {
-        padding: 3rem 0;
-    }
-
     /* titles and subtitles */
 
     .pageSub {
@@ -156,7 +152,7 @@ footer{
         position: absolute;
         right: 0;
         top: 0;
-        margin: 2rem 2rem;
+        margin: 1rem 5rem 0 0;
         cursor: pointer;
         z-index: 2;  
     }
@@ -203,13 +199,14 @@ footer{
     header.on .menu {
         display: flex;
         flex-direction: column;
-        margin: 8rem 4rem;
+        margin: 12rem 4rem;
         align-items: center;
     }
 
     header.on .menu li {
-        padding: 1rem 0;
+        padding: 2rem 0;
         border: none;
+        font-size: 4rem;
     }
 
     header.on .menu a:hover {

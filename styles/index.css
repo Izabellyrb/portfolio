@@ -2,12 +2,10 @@ ul li:nth-child(1):hover {
     border-top: solid #c50294dc;
 }
 
-#mainPage {
-    margin-left: 5rem
-}
 
 .page:nth-child(1) {
     justify-content: center;
+    text-align: justify;
 }
 
 .pageTitle:nth-child(1) {
