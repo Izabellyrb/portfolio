@@ -1,0 +1,47 @@
+ul li:nth-child(1):hover {
+    border-top: solid #c50294dc;
+}
+
+#mainPage {
+    margin-left: 5rem
+}
+
+.page:nth-child(1) {
+    justify-content: center;
+}
+
+.pageTitle:nth-child(1) {
+    color: #c50294dc;
+    opacity: 0;
+    transform: translate3d(-5rem, 0, 0);
+    animation: show 0.9s 4.5s ease forwards;
+}
+
+#color.pageSub::after {
+    content: '|';
+    margin-left: 1rem;
+    animation: cursor 0.8s infinite;
+}
+
+/* main page animation */
+
+@keyframes cursor {
+    0% {
+        color: #000;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    100% {
+        color: #000;
+    }
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

@@ -1,0 +1,66 @@
+ul li:nth-child(4):hover {
+    border-top: solid #BF1111;
+}
+
+#color3 {
+    color: #BF1111;
+}
+
+.uni, .e-courses {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course {
+    background-color: rgba(110, 10, 10, 0.171);
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.course:hover {
+    background-color: rgba(119, 70, 70, 0.438);
+}
+
+.course > .img {
+    width: 5rem;
+    padding: 0;
+}
+
+.info {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subInfo {
+    font-size: 1.6rem;
+    margin: 0; 
+    color: rgba(90, 45, 45, 0.651);
+}
+
+/* MEDIA QUERY */
+
+/* small mobiles */
+@media (max-width: 480px) { 
+    .uni, .e-courses {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .course > .img {
+        width: 3rem;
+    }
+
+    .info {
+        font-size: 1.6rem;
+    }
+    
+    .subInfo {
+        font-size: 1.2rem;
+    }
+    
+
+}
+
+
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/education.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <title>Meu portfolio</title>
+</head>
+<body>
+    <header>
+        <div class='menuToggle'>
+            <div id='bar1' class='bar'></div>
+            <div id='bar2' class='bar'></div>
+            <div id='bar3' class='bar'></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a id="one" href="#mainPage">OI :)</a></li>
+                <li><a id="two" href="#about">SOBRE MIM</a></li>
+                <li><a id="three" href="#skills">HABILIDADES</a></li>
+                <li><a id="four" href="#education">FORMAÇÃO</a></li>
+                <li><a id="five" href="#projects">PROJETOS</a></li>
+                <li><a id="six" href="#contacts">CONTATOS</a></li>               
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- Main page -->
+        <section id="mainPage" class="page">
+            <h1 class="pageTitle animate">("Hello, World! 👋")</h1>
+            <h2 id="color" class="pageSub">Sou a Iza, estudante e futura desenvolvedora frontend ;)</h2><span class="cursor"></span>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="page">
+            <h2 id="color1" class="pageSub" data-animation="left">Um resuminho...</h2>
+            <div class="myinfo" data-animation="right">
+                <p> Sou a Izabelly, tenho 23 anos, moro em São Paulo e sou estudante de Análise e Desenvolvimento de Sistemas (3º semestre).<br>
+                No momento estou praticando e fazendo projetos em desenvolvimento web front-end para melhorar meus conhecimentos e conseguir minha primeira experiência profissional na área ;) </p>
+                <img class="foto" src="/images/iza.png" alt="Iza">
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="page">
+            <h2 id="color2" class="pageSub" data-animation="left">Habilidades</h2>
+            <p data-animation="left"> Estas são as tecnologias que estudei/estou estudando:</p>
+            <div class="imgs" data-animation="right">
+                <img class="img" src="/images/html.png" alt="icone_html">
+                <img class="img" src="/images/css.png" alt="icone_html">
+                <img class="img" src="/images/js.png" alt="icone_html">
+                <img class="img" src="/images/py.png" alt="icone_html">
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="page">
+            <h2 id="color3" class="pageSub" data-animation="left">Formação</h2>
+            <p data-animation="left"> Minha jornada acadêmica (dentro e fora da área)</p>
+
+            <div class="uni" data-animation="right">
+                <div class="course">
+                    <img class="img" src="/images/college.png" alt="universidade">
+                    <p class="info"> Análise e Desenvolvimento de Sistemas </p>
+                    <p class='subInfo'> 
+                        Universidade Cruzeiro do Sul <br>
+                        2021 - 2023
+                    </p>
+                </div>
+                <div class="course">
+                    <img  class="img" src="/images/college.png" alt="universidade">
+                    <p class="info"> Tecnólogo em Comércio Exterior</p>
+                    <p class='subInfo'> 
+                        Universidade Nove de Julho<br>
+                        2017 - 2019
+                    </p>
+                </div>
+            </div>
+
+            <div class="e-courses" data-animation="right">
+                <div class="course">
+                    <img  class="img" src="/images/ecourse.png" alt="universidade">
+                    <p class="info"> Curso de HTML / CSS </p>
+                    <p class='subInfo'> 
+                        Curso em Vídeo<br>
+                        2021
+                    </p>
+                </div>
+                <div class="course">
+                    <img  class="img" src="/images/ecourse.png" alt="universidade">
+                    <p class="info"> Curso de Javascript </p>
+                    <p class='subInfo'> 
+                        Curso em Vídeo<br>
+                        2021
+                    </p>
+                </div>
+                <div class="course">
+                    <img  class="img" src="/images/ecourse.png" alt="universidade">
+                    <p class="info"> Curso de Python </p>
+                    <p class='subInfo'> 
+                        Curso em Vídeo<br>
+                        2021
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="page">
+        <h2 id="color4" class="pageSub" data-animation="left">Projetos<h2>
+        <p data-animation="left"> Alguns dos meus projetos</p>
+
+        <div class="projects" data-animation="right">
+            <figure id="player" class="project">
+                <img src="/images/projects/cecaf.png" alt="">
+                <figcaption>
+                    <p class="pinfo">CECAF</p>
+                    <p class="psubinfo">Site completo, com informações sobre o centro educacional e área simples de cadastro.</p>
+                    <div class="buttons">
+                        <a href="https://izabellyrb.github.io/projeto-cecaf/">
+                            <button class="btn">Visitar o projeto</button></a>
+                        <a href="https://github.com/Izabellyrb/projeto-cecaf">
+                            <button class="btn">Ver o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="/images/projects/aBruxa.png" alt="">
+                <figcaption>
+                    <p class="pinfo">A Bruxa</p>
+                    <p class="psubinfo">Landing page sobre o lançamento de um e-book</p>
+                    <div class="buttons">
+                        <a href="https://izabellyrb.github.io/projeto-ebook/">
+                            <button class="btn">Visitar o projeto</button></a>
+                        <a href="https://github.com/Izabellyrb/projeto-ebook">
+                            <button class="btn">Ver o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="/images/projects/nowListen.png" alt="">
+                <figcaption>
+                    <p class="pinfo">Now Listen</p>
+                    <p class="psubinfo">Landing page simples de um aplicativo de áudio</p>
+                    <div class="buttons">
+                        <a href="https://izabellyrb.github.io/projeto-player/">
+                            <button class="btn">Visitar o projeto</button></a>
+                        <a href="https://github.com/Izabellyrb/projeto-player">
+                            <button class="btn">Ver o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="/images/projects/Responsividade.png" alt="">
+                <figcaption>
+                    <p class="pinfo">Site Responsivo</p>
+                    <p class="psubinfo">Site responsivo com área de login, página inicial e página de cadastro</p>
+                    <div class="buttons">
+                        <a href="https://izabellyrb.github.io/projeto-responsividade/">
+                            <button class="btn">Visitar o projeto</button></a>
+                        <a href="https://github.com/Izabellyrb/projeto-responsividade">
+                            <button class="btn">Ver o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="project">
+                <img src="/images/projects/Blog.png" alt="">
+                <figcaption>
+                    <p class="pinfo">It's all about Social Media</p>
+                    <p class="psubinfo">Blog sobre mídias sociais (não responsivo)</p>
+                    <div class="buttons">
+                        <a href="https://izabellyrb.github.io/Projeto_pagWeb1/">
+                            <button class="btn">Visitar o projeto</button></a>
+                        <a href="https://github.com/Izabellyrb/Projeto_pagWeb1">
+                            <button class="btn">Ver o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- Contacts -->
+        <section id="contacts" class="page2">
+            <h2 id="color5" class="pageSub" data-animation="left">Contatos</h2>
+            <p data-animation="left"> Para me mandar um e-mail, uma mensagem, um feedback, uma proposta, mandar jobs <del>ou me indicar na sua empresa ;)</del></p>
+            <div class="imgs" data-animation="right">
+                <a href="mailto:izabelly.rb@hotmail.com"><img class="icon" src="/images/mail.png" alt="icone_html"></a>
+                <a href="https://www.linkedin.com/in/izabelly-brito"><img class="icon" src="/images/linkedin.png" alt="icone_html"></a>
+                <a href="https://github.com/Izabellyrb"><img class="icon" src="/images/git.png" alt="icone_html"></a>
+                <a href="https://api.whatsapp.com/send?phone=55+011+969979461&text=Oi!%20Vi%20seu%20portfolio.%20Vamos%20conversar?"><img class="icon" src="/images/wpp.png" alt="icone_html"></a>
+            </div>
+        </section>
+        <footer> &copy; 2022 - Todos os direitos reservados</footer>
+    </div>
+
+    <div class="dark"></div>
+    <script src="../script.js"> </script>
+</body>
+</html>

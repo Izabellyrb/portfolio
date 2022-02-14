@@ -1,0 +1,42 @@
+ul li:nth-child(3):hover {
+    border-top: solid #eecb1f;
+}
+
+#color2 {
+    color: #eecb1f;
+}
+
+#skills .img:hover {
+    transform: rotate(10deg)
+}
+
+/*    MEDIA QUERIES    */
+
+/* medium mobiles and tablets */
+@media (max-width: 768px) {
+    #skills .imgs {
+        width: 35rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-self: center;
+    }
+    
+    #skills .img {
+        width: 12rem;
+        height: 20rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* small mobiles */
+@media (max-width: 480px) { 
+    #skills .imgs {
+        width: 24rem;
+        justify-content: space-between;
+    }
+
+    #skills .img {
+        width: 10rem;
+        height: 16rem;
+    }
+}

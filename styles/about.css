@@ -1,0 +1,58 @@
+ul li:nth-child(2):hover {
+    border-top: solid #0672ff;
+}
+
+#color1{
+    color: #0672ff;
+}
+
+.myinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myinfo p {
+    text-align: justify;
+    padding: 0 8rem 0 0;
+    margin-top: 2rem;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 30rem;
+    background-color: #0672ff;
+}
+
+/*    MEDIA QUERIES    */
+
+/* tablets and desktops */
+@media (max-width: 1024px) {
+    .myinfo p {
+        padding: 0 4rem 0 0;
+    }
+
+    .foto {
+        width: 28rem;
+    }
+}
+
+/* medium mobiles and tablets */
+@media (max-width: 768px) {
+    .myinfo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .myinfo p {
+        padding: 0;
+    }
+}
+
+/* small mobiles */
+@media (max-width: 480px) { 
+    .foto {
+        width: 22rem;
+    }
+}
+
+

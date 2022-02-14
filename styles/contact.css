@@ -1,0 +1,76 @@
+ul li:nth-child(6):hover {
+    border-top: solid #668c4a;
+}
+
+#color5 {
+    color: #668c4a;
+}
+
+.page2 {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+.icon {
+    width: 8rem;
+}
+
+.icon:hover {
+    animation: swing 0.5s ease;
+    cursor: pointer;
+}
+
+@keyframes swing {
+    30% {
+        transform: translateX(-1rem);
+        -webkit-animation: translateX(-1rem);
+    }
+
+    50% {
+        transform: translateX(0);
+        -webkit-animation: translateX(0);
+    }
+
+    70% {
+        transform: translateX(-1rem);
+        -webkit-animation: translateX(-1rem);
+    }
+        
+    100% {
+        transform: translateX(0rem);
+        -webkit-animation: translateX(0rem);
+    }
+
+}
+
+/* MEDIA QUERY*/
+
+/* small mobiles */
+@media (max-width: 480px) { 
+    .icon {
+        width: 8rem;
+        margin-bottom: 5rem;
+    }
+    #contacts .imgs {
+        width: 20rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
