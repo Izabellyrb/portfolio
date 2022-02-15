@@ -95,8 +95,8 @@ figure > img {
 /* small mobiles */
 @media (max-width: 480px) { 
     figure > img {
-        width: 40rem;
-        height: 24rem;
+        width: 36rem;
+        height: 22rem;
     }
 
 }

@@ -127,7 +127,7 @@ footer{
 /* medium mobiles and tablets */
 @media (max-width: 768px) {
     .container {
-        width: 50rem;
+        width: 70vw;
     }
 
     /* titles and subtitles */
@@ -152,7 +152,7 @@ footer{
         position: absolute;
         right: 0;
         top: 0;
-        margin: 1rem 5rem 0 0;
+        margin: 1rem 1.5rem 0 0;
         cursor: pointer;
         z-index: 2;  
     }
@@ -188,6 +188,9 @@ footer{
     header.on {
         background-image:linear-gradient(180deg, #ffffff, #d8d8d8);
         position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 0;
         right: 0;
         width: 25rem;
@@ -196,11 +199,9 @@ footer{
         transition: .2s;
     }
     
-    header.on .menu {
+    header.on .menu, .menu ul {
         display: flex;
         flex-direction: column;
-        margin: 6rem 4rem;
-        align-items: center;
     }
 
     header.on .menu li {
@@ -209,7 +210,7 @@ footer{
         font-size: 2.4rem;
     }
 
-    header.on .menu a:hover {
+    header.on .menu a:hover{
         color: rgb(117, 117, 117);
     }
 
