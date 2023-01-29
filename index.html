@@ -42,15 +42,15 @@
         <!-- Main page -->
         <section id="mainPage" class="page">
             <h1 class="pageTitle animate">("Hello, World! 👋")</h1>
-            <h2 id="color" class="pageSub">Sou a Iza, estudante e futura desenvolvedora front-end ;)</h2><span class="cursor"></span>
+            <h2 id="color" class="pageSub"> Prazer, sou a Iza ;)</h2><span class="cursor"></span>
         </section>
 
         <!-- About -->
         <section id="about" class="page">
             <h2 id="color1" class="pageSub" data-animation="left">Um resuminho...</h2>
             <div class="myinfo" data-animation="right">
-                <p> Sou a Izabelly, tenho 23 anos, moro em São Paulo e sou estudante de Análise e Desenvolvimento de Sistemas (3º semestre).<br>
-                No momento estou praticando e fazendo projetos em desenvolvimento web front-end para melhorar meus conhecimentos e conseguir minha primeira experiência profissional na área ;) </p>
+                <p> Sou a Izabelly, tenho 24 anos, moro em São Paulo e sou formada em Análise e Desenvolvimento de Sistemas.<br>
+                No momento estou praticando e fazendo projetos em desenvolvimento web para melhorar meus conhecimentos e conseguir minha primeira experiência profissional na área ;) </p>
                 <img class="foto" src="./images/iza.gif" alt="Iza">
             </div>
         </section>
@@ -60,62 +60,71 @@
             <h2 id="color2" class="pageSub" data-animation="left">Habilidades</h2>
             <p data-animation="left"> Estas são as tecnologias que estudei / estou estudando:</p>
             <div class="imgs" data-animation="right">
+                <img class="img" src="./images/ruby.png" alt="icone_ruby">
+                <img class="img" src="./images/rails.png" alt="icone_rails">
+                <img class="img" src="./images/git.png" alt="icone_git">
+                <img class="img" src="./images/sqlite.png" alt="icone_sqlite">
+                <img class="img" src="./images/py.png" alt="icone_python">
+                <img class="img" src="./images/js.png" alt="icone_javascript">
                 <img class="img" src="./images/html.png" alt="icone_html">
-                <img class="img" src="./images/css.png" alt="icone_html">
-                <img class="img" src="./images/js.png" alt="icone_html">
-                <img class="img" src="./images/py.png" alt="icone_html">
+                <img class="img" src="./images/css.png" alt="icone_css">
+
             </div>
         </section>
 
         <!-- Education -->
         <section id="education" class="page">
             <h2 id="color3" class="pageSub" data-animation="left">Formação</h2>
-            <p data-animation="left"> Minha jornada acadêmica (dentro e fora da área)</p>
+            <p data-animation="left"> Minha jornada acadêmica</p>
 
-            <div class="uni" data-animation="right">
+            <div class="courses" data-animation="right">
                 <div class="course">
-                    <img class="img" src="./images/college.png" alt="universidade">
+                    <img class="img" src="./images/college.png" alt="curso">
                     <p class="info"> Análise e Desenvolvimento de Sistemas </p>
                     <p class='subInfo'> 
                         Universidade Cruzeiro do Sul <br>
                         2021 - 2023
                     </p>
                 </div>
+
                 <div class="course">
-                    <img  class="img" src="./images/college.png" alt="universidade">
-                    <p class="info"> Tecnólogo em Comércio Exterior</p>
+                    <img  class="img" src="./images/ecourse.png" alt="curso">
+                    <p class="info"> Treinamento Imersivo em Desenvolvimento Web - Rails </p>
                     <p class='subInfo'> 
-                        Universidade Nove de Julho<br>
-                        2017 - 2019
+                        Campus Code - Treina Dev Delas<br>
+                        2022
                     </p>
                 </div>
             </div>
+            
 
             <div class="e-courses" data-animation="right">
+
                 <div class="course">
-                    <img  class="img" src="./images/ecourse.png" alt="universidade">
-                    <p class="info"> Curso de HTML / CSS </p>
+                    <img  class="img" src="./images/ecourse.png" alt="curso">
+                    <p class="info"> HTML / CSS </p>
                     <p class='subInfo'> 
-                        Curso em Vídeo<br>
+                        Curso em Vídeo <br>
                         2021
                     </p>
                 </div>
                 <div class="course">
-                    <img  class="img" src="./images/ecourse.png" alt="universidade">
-                    <p class="info"> Curso de Javascript </p>
+                    <img  class="img" src="./images/ecourse.png" alt="curso">
+                    <p class="info"> Javascript </p>
                     <p class='subInfo'> 
-                        Curso em Vídeo<br>
+                        Curso em Vídeo <br>
                         2021
                     </p>
                 </div>
                 <div class="course">
-                    <img  class="img" src="./images/ecourse.png" alt="universidade">
-                    <p class="info"> Curso de Python </p>
+                    <img  class="img" src="./images/ecourse.png" alt="curso">
+                    <p class="info"> Python </p>
                     <p class='subInfo'> 
-                        Curso em Vídeo<br>
+                        Curso em Vídeo <br>
                         2021
                     </p>
                 </div>
+
             </div>
         </section>
 
@@ -126,11 +135,36 @@
         <p data-animation="left"> Alguns dos meus projetos</p>
 
         <div class="projects" data-animation="right">
+
+            <figure class="project">
+                <img src="./images/projects/insurance-comparator-app.png">
+                <figcaption>
+                    <p class="pinfo">Comparador de Seguros</p>
+                    <p class="psubinfo">App que permite a comparação e compra de pacotes de seguros para dispositivos</p>
+                    <div class="buttons">
+                        <a href="https://github.com/TreinaDev/insurance-comparator-app">
+                            <button class="btn">Visitar o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="./images/projects/freight-app.png">
+                <figcaption>
+                    <p class="pinfo">Freight app</p>
+                    <p class="psubinfo">App que gerencia a frota de entrega para um e-commerce</p>
+                    <div class="buttons">
+                        <a href="https://github.com/izabellyrb/freight-app">
+                            <button class="btn">Visitar o repositório</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
             <figure id="player" class="project">
-                <img src="./images/projects/cecaf.png" alt="">
+                <img src="./images/projects/cecaf.png">
                 <figcaption>
                     <p class="pinfo">CECAF</p>
-                    <p class="psubinfo">Site completo, com informações sobre o centro educacional e área simples de cadastro.</p>
+                    <p class="psubinfo">Site institucional, com informações sobre um centro educacional</p>
                     <div class="buttons">
                         <a href="https://izabellyrb.github.io/projeto-cecaf/">
                             <button class="btn">Visitar o projeto</button></a>
@@ -141,10 +175,10 @@
             </figure>
 
             <figure class="project">
-                <img src="./images/projects/aBruxa.png" alt="">
+                <img src="./images/projects/aBruxa.png">
                 <figcaption>
                     <p class="pinfo">A Bruxa</p>
-                    <p class="psubinfo">Landing page sobre o lançamento de um e-book</p>
+                    <p class="psubinfo">Landing page que apresenta o lançamento de um e-book</p>
                     <div class="buttons">
                         <a href="https://izabellyrb.github.io/projeto-ebook/">
                             <button class="btn">Visitar o projeto</button></a>
@@ -155,7 +189,7 @@
             </figure>
 
             <figure class="project">
-                <img src="./images/projects/nowListen.png" alt="">
+                <img src="./images/projects/nowListen.png">
                 <figcaption>
                     <p class="pinfo">Now Listen</p>
                     <p class="psubinfo">Landing page simples de um aplicativo de áudio</p>
@@ -169,28 +203,14 @@
             </figure>
 
             <figure class="project">
-                <img src="./images/projects/Responsividade.png" alt="">
+                <img src="./images/projects/Responsividade.png">
                 <figcaption>
                     <p class="pinfo">Site Responsivo</p>
-                    <p class="psubinfo">Site responsivo com área de login, página inicial e página de cadastro</p>
+                    <p class="psubinfo">Site institucional simples com área de login e cadastro</p>
                     <div class="buttons">
                         <a href="https://izabellyrb.github.io/projeto-responsividade/">
                             <button class="btn">Visitar o projeto</button></a>
                         <a href="https://github.com/Izabellyrb/projeto-responsividade">
-                            <button class="btn">Ver o repositório</button></a>
-                    </div>
-                </figcaption>
-            </figure>
-            
-            <figure class="project">
-                <img src="./images/projects/Blog.png" alt="">
-                <figcaption>
-                    <p class="pinfo">It's all about Social Media</p>
-                    <p class="psubinfo">Blog sobre mídias sociais (não responsivo)</p>
-                    <div class="buttons">
-                        <a href="https://izabellyrb.github.io/Projeto_pagWeb1/">
-                            <button class="btn">Visitar o projeto</button></a>
-                        <a href="https://github.com/Izabellyrb/Projeto_pagWeb1">
                             <button class="btn">Ver o repositório</button></a>
                     </div>
                 </figcaption>
@@ -204,7 +224,7 @@
             <div class="imgs" data-animation="right">
                 <a href="mailto:izabelly.rb@hotmail.com"><img class="icon" src="./images/mail.png" alt="icone_html"></a>
                 <a href="https://www.linkedin.com/in/izabelly-brito"><img class="icon" src="./images/linkedin.png" alt="icone_html"></a>
-                <a href="https://github.com/Izabellyrb"><img class="icon" src="./images/git.png" alt="icone_html"></a>
+                <a href="https://github.com/Izabellyrb"><img class="icon" src="./images/github.png" alt="icone_html"></a>
                 <a href="https://api.whatsapp.com/send?phone=55+011+969979461&text=Oi!%20Vi%20seu%20portfolio.%20Vamos%20conversar?"><img class="icon" src="./images/wpp.png" alt="icone_html"></a>
             </div>
         </section>
