@@ -1,12 +1,16 @@
-# Meu portfolio
+# 👩‍💻 Meu portfólio
 
-Portfolio com um resumo do meu progresso como desenvolvedora, incluindo as ferramentas utilizadas e principais projetos postados nos meus repositórios.
+Resumo do meu progresso como desenvolvedora, incluindo ferramentas utilizadas e principais projetos trabalhados até o momento.
 
-### Recursos
-- [x] HTML e CSS
-- [x] Layout responsivo
-- [x] mudanças de botões e animações com Javascript
+**<p align="center"> Acesse clicando [aqui 💜](https://izabellyrb.github.io/portfolio/) </p>**
 
-<h4 align="center"> 
-	:construction: Em constante atualização...
-</h4>
+<br>
+
+## 🔍 Recursos utilizados
+✔️ HTML e CSS <br>
+✔️ Layout responsivo <br>
+✔️ Animações com Javascript 
+  
+<br>
+
+*<h4 align="center">🚧 Em constante atualização </h4>*
