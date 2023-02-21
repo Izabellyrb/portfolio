@@ -12,7 +12,7 @@ ul li:nth-child(1):hover {
     color: #c50294dc;
     opacity: 0;
     transform: translate3d(-5rem, 0, 0);
-    animation: show 0.9s 4.5s ease forwards;
+    animation: show 0.9s 1.7s ease forwards;
 }
 
 #color.pageSub::after {
