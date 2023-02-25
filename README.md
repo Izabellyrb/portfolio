@@ -6,7 +6,7 @@ Resumo do meu progresso como desenvolvedora, incluindo ferramentas utilizadas e 
 
 <br>
 
-## 🔍 Recursos utilizados
+## 🔍 Recursos aplicados
 ✔️ HTML e CSS <br>
 ✔️ Layout responsivo <br>
 ✔️ Animações com Javascript <br>

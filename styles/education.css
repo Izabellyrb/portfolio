@@ -9,6 +9,7 @@ ul li:nth-child(4):hover {
 .courses, .e-courses {
     display: flex;
     justify-content: space-around;
+
 }
 
 .course {
@@ -46,6 +47,7 @@ ul li:nth-child(4):hover {
     .courses, .e-courses {
         justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
 
     .course {
@@ -65,9 +67,10 @@ ul li:nth-child(4):hover {
     .subInfo {
         font-size: 1.2rem;
     }
-    
 
+    /* small mobiles */
+@media (max-width: 460px) {
+    .course {
+        width: 90%;
+    }
 }
-
-
-
