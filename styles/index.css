@@ -21,11 +21,15 @@ ul li:nth-child(1):hover {
     animation: cursor 0.8s infinite;
 }
 
+.pageSub {
+    color: var(--color-texts)
+}
+
 /* main page animation */
 
 @keyframes cursor {
     0% {
-        color: #000;
+        color: var(--color-texts);
     }
 
     50% {
@@ -33,7 +37,7 @@ ul li:nth-child(1):hover {
     }
 
     100% {
-        color: #000;
+        color: var(--color-texts);
     }
 }
 

@@ -12,11 +12,11 @@ ul li:nth-child(4):hover {
 }
 
 .course {
-    background-color: rgba(110, 10, 10, 0.171);
+    background-color: var(--subtexts-panel);
     padding: 1rem 2rem;
     margin: 1rem;
     border-radius: 1rem;
-    width: 40rem;
+    width: 50rem;
 }
 
 .course:hover {
@@ -36,14 +36,14 @@ ul li:nth-child(4):hover {
 .subInfo {
     font-size: 1.6rem;
     margin: 0; 
-    color: rgba(90, 45, 45, 0.651);
+    color: var(--color-subtexts)
 }
 
 /* MEDIA QUERY */
 
-/* small mobiles */
-@media (max-width: 480px) { 
-    .uni, .e-courses {
+/* medium mobiles and tablets */
+@media (max-width: 768px) {
+    .courses, .e-courses {
         justify-content: center;
         flex-direction: column;
     }
@@ -51,6 +51,7 @@ ul li:nth-child(4):hover {
     .course {
         padding: 0.5rem 1rem;
         margin: 0.5rem;
+        width: 40rem;
     }
 
     .course > .img {

@@ -19,15 +19,15 @@ ul li:nth-child(3):hover {
 /* medium mobiles and tablets */
 @media (max-width: 768px) {
     #skills .imgs {
-        width: 28rem;
+        width: 38rem;
         flex-wrap: wrap;
         justify-content: space-between;
         align-self: center;
     }
     
     #skills .img {
-        width: 12rem;
-        height: 16rem;
+        width: 8rem;
+        height: 8rem;
         margin-bottom: 4rem;
     }
 }
@@ -37,10 +37,5 @@ ul li:nth-child(3):hover {
     #skills .imgs {
         width: 22rem;
         justify-content: space-between;
-    }
-
-    #skills .img {
-        width: 8rem;
-        height: 12rem;
     }
 }

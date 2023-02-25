@@ -69,9 +69,42 @@ function menuOnClick() {
 }
 
 /* dark-theme */
-
+const html = document.querySelector('html') 
 const chk = document.getElementById('chk')
 
-chk.addEventListener('change', () => {
-    document.body.classList.toggle('dark')
+// pegar valores direto do computed style (https://bityli.com/Zng7e)
+const getStyle = (element, style) => 
+    window.getComputedStyle(element).getPropertyValue(style)
+
+// define as cores iniciais e de modo escuro + função dinamica para fazer a alteração 
+const initialColors = {
+    bg1: getStyle(html, '--bg1'),
+    bg2: getStyle(html, '--bg2'),
+    bg3: getStyle(html, '--bg3'),
+    colorTexts: getStyle(html, '--color-texts'),
+    colorSubtexts: getStyle(html, '--color-subtexts'),
+    subtextsPanel: getStyle(html, '--subtexts-panel')
+}
+
+const darkMode = {
+    bg1: "#232c35",
+    bg2: "#34383b",
+    bg3: "#262e36",
+    colorTexts: "#f0f6fc",
+    colorSubtexts: "#925a5a",
+    subtextsPanel: "#6e0a0a94"
+}
+
+const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase() // busca por expressão regular
+
+const changeColors = (colors) => {
+    Object.keys(colors).map(key => 
+        html.style.setProperty(transformKey(key), colors[key])
+    )
+} 
+
+chk.addEventListener('change', ({target}) => {
+    target.checked ? changeColors(darkMode) : changeColors(initialColors)
 })
+
+
