@@ -7,10 +7,8 @@ ul li:nth-child(6):hover {
 }
 
 .page2 {
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
 }
 
 del {
@@ -24,6 +22,10 @@ del {
 .icon:hover {
     animation: swing 0.5s ease;
     cursor: pointer;
+}
+
+#contacts .imgs {
+    margin-top: 12rem;
 }
 
 @keyframes swing {

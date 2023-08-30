@@ -6,12 +6,35 @@ ul li:nth-child(3):hover {
     color: #eecb1f;
 }
 
+#skills .imgs {
+    flex-wrap: wrap;
+}
+
+#skills .skill_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
 #skills .img:hover {
     transform: rotate(10deg)
 }
 
 #skills .img {
     width: 10rem;
+    padding: 0 1rem;
+}
+
+.skill_label {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #b8b8b879;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 0.8rem;
 }
 
 /*    MEDIA QUERIES    */
@@ -28,7 +51,7 @@ ul li:nth-child(3):hover {
     #skills .img {
         width: 8rem;
         height: 8rem;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 }
 
