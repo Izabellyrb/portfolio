@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/about.css">
@@ -15,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-    <title>Meu portfolio</title>
+    <title>Iza Brito</title>
 </head>
 <body>
     <header>
@@ -36,8 +37,8 @@
             <div class="theme">
                 <input type="checkbox" class="checkbox" id="chk"/>
                 <label class="label" for="chk">
-                    <p class='light-mode'> ☀ </p>
                     <p class='dark-mode'> ☾ </p>
+                    <p class='light-mode'> ☀ </p>
                     <div class="ball"></div>
                 </label>
             </div>
@@ -49,12 +50,12 @@
         <!-- Main page -->
         <section id="mainPage" class="page">
             <h1 class="pageTitle animate">("Hello, World! 👋")</h1>
-            <h2 id="color" class="pageSub"> Prazer, sou a Iza ;)</h2><span class="cursor"></span>
+            <h2 id="main" class="pageSub"> Prazer, sou a Iza ;)</h2><span class="cursor"></span>
         </section>
 
         <!-- About -->
         <section id="about" class="page">
-            <h2 id="color1" class="pageSub" data-animation="left">Um resuminho...</h2>
+            <h2 id="color" class="pageSub" data-animation="left">Um resuminho...</h2>
             <div class="myinfo" data-animation="right">
                 <p> Sou a Izabelly, tenho 25 anos e vivo em São Paulo. 
                     Sou formada em Análise e Desenvolvimento de Sistemas e hoje trabalho como desenvolvedora backend,
@@ -65,7 +66,7 @@
 
         <!-- Skills -->
         <section id="skills" class="page">
-            <h2 id="color2" class="pageSub" data-animation="left">Habilidades</h2>
+            <h2 id="color" class="pageSub" data-animation="left">Habilidades</h2>
             <p data-animation="left"> Tenho experiência com essas tecnologias: </p> 
             <div class="imgs" data-animation="right">
                 <div class="skill_block"> 
@@ -115,10 +116,34 @@
 
     <!-- Projects -->
     <section id="projects" class="page">
-        <h2 id="color4" class="pageSub" data-animation="left">Projetos</h2>
+        <h2 id="color" class="pageSub" data-animation="left">Projetos</h2>
         <p data-animation="left"> Alguns dos projetos pessoais e profissionais que eu já criei </p>
 
         <div class="projects" data-animation="right">
+
+            <figure class="project">
+                <img src="./images/projects/CezarBlog1.png">
+                <figcaption>
+                    <p class="pinfo">Cezar Blog</p>
+                    <p class="psubinfo">Blog para empresa de treinamentos e projetos de acessoria sindical</p>
+                    <div class="buttons">
+                        <a href="https://cezar.blog.br/">
+                            <button class="btn">Visitar o projeto</button></a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="./images/projects/FerasConfeccoes1.png">
+                <figcaption>
+                    <p class="pinfo">Feras Confecções</p>
+                    <p class="psubinfo">Site institucional para fábrica de camisetas</p>
+                    <div class="buttons">
+                        <a href="https://ferasconfeccoes.com.br/">
+                            <button class="btn">Visitar o projeto</button></a>
+                    </div>
+                </figcaption>
+            </figure>
 
             <figure class="project">
                 <img src="./images/projects/insurance-comparator-app.png">
@@ -185,25 +210,11 @@
                     </div>
                 </figcaption>
             </figure>
-
-            <figure class="project">
-                <img src="./images/projects/Responsividade.png">
-                <figcaption>
-                    <p class="pinfo">Site Responsivo</p>
-                    <p class="psubinfo">Site institucional simples com área de login e cadastro</p>
-                    <div class="buttons">
-                        <a href="https://izabellyrb.github.io/projeto-responsividade/">
-                            <button class="btn">Visitar o projeto</button></a>
-                        <a href="https://github.com/Izabellyrb/projeto-responsividade">
-                            <button class="btn">Ver o repositório</button></a>
-                    </div>
-                </figcaption>
-            </figure>
         </div>
 
         <!-- Contacts -->
         <section id="contacts" class="page2">
-            <h2 id="color5" class="pageSub" data-animation="left">Contatos</h2>
+            <h2 id="color" class="pageSub" data-animation="left">Contatos</h2>
             <p data-animation="left"> Para me mandar um e-mail, uma mensagem, um feedback, um job ou um oi :) </p>
             <div class="imgs">
                 <a href="mailto:izabelly.rb@hotmail.com"><img class="icon" src="./images/mail.png" alt="icone_html"></a>

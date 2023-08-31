@@ -1,11 +1,3 @@
-ul li:nth-child(2):hover {
-    border-top: solid #0672ff;
-}
-
-#color1{
-    color: #0672ff;
-}
-
 .myinfo {
     display: flex;
     justify-content: space-between;
@@ -21,7 +13,7 @@ ul li:nth-child(2):hover {
 .foto {
     border-radius: 50%;
     width: 30rem;
-    background-color: #0672ff;
+    background-color: #c50294dc;
 }
 
 /*    MEDIA QUERIES    */

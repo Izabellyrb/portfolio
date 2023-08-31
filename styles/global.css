@@ -8,12 +8,10 @@
 }
 
 html {
-    --bg1: #ffffff;
-    --bg2: #d8d3d3;
-    --bg3: #fafafa;
-    --color-texts: #000000;
-    --color-subtexts: #5a2d2da6;
-    --subtexts-panel: #be080852;
+    --bg1: #232c35;
+    --bg2: #34383b;
+    --bg3: #262e36;
+    --color-texts: #f0f6fc;
 }
 
 body {
@@ -48,6 +46,11 @@ nav ul {
 
 ul li {
     display: inline-block;
+    
+}
+
+ul li:hover {
+    border-top: solid #c50294dc;
 }
 
 li a {
@@ -100,13 +103,17 @@ li:hover {
 }
 
 .checkbox:checked + .label .ball {
-    transform: translateX(3.2rem);
+    transform: translateX(3.5rem);
 }
 
-.light-mode, .dark-mode  {
+.light-mode  {
+    font-size: 2.8rem;
+}
+
+.dark-mode  {
     color: #ffffff;
     font-size: 2.8rem;
-    padding-right: 1rem;
+    padding-right: 1.2rem;
 }
 
 
@@ -120,6 +127,10 @@ li:hover {
 .pageSub {
     font-size: 4rem;
     margin-bottom: 1rem;
+}
+
+#color {
+    color: #c50294dc;
 }
 
 p {
