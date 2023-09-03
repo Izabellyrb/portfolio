@@ -49,7 +49,7 @@ del {
 @media (max-width: 480px) { 
     .icon {
         width: 8rem;
-        margin-bottom: 10rem;
+        padding: 5rem 0;
     }
     #contacts .imgs {
         display: grid;

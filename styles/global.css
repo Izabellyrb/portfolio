@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    width: 100vw;
+    width: 100rem;
     margin: 0 auto;
 }
 
@@ -84,8 +84,9 @@ li:hover {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
-    height: 4rem;
+    height: 4.2rem;
     width: 8rem;
 }
 
@@ -93,10 +94,10 @@ li:hover {
     background-color: #ffffff;
     border-radius: 2rem;
     position: absolute;
-    top: .5rem;
-    left: 0.8rem;
-    height: 3rem;
-    width: 3rem;
+    top: .3rem;
+    left: 0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
 
     transform: translateX(0);
     transition: transform 0.2s linear;
@@ -106,14 +107,15 @@ li:hover {
     transform: translateX(3.5rem);
 }
 
-.light-mode  {
-    font-size: 2.8rem;
+.dark-mode {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
 }
 
-.dark-mode  {
-    color: #ffffff;
-    font-size: 2.8rem;
-    padding-right: 1.2rem;
+.light-mode  {
+    width: 3rem;
+    height: 3rem;
 }
 
 
@@ -286,8 +288,8 @@ footer{
         color: rgb(117, 117, 117);
     }
 
-    p.light-mode, p.dark-mode {
-        font-size: 2.6rem;
+    .light-mode, .dark-mode {
+        size: 2rem;
     }
 }
 
