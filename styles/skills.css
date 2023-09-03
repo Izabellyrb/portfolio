@@ -1,11 +1,12 @@
 #skills .imgs {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 #skills .skill_block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 0 2rem;
 }
 
@@ -19,8 +20,7 @@
 }
 
 .skill_label {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 2rem;
     font-weight: 800;
     background-color: #b8b8b879;
@@ -34,16 +34,13 @@
 /* medium mobiles and tablets */
 @media (max-width: 768px) {
     #skills .imgs {
-        width: 45rem;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-self: center;
+        grid-template-columns: repeat(4, 1fr);
     }
     
     #skills .img {
         width: 6rem;
         height: 6rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .skill_label {
@@ -55,9 +52,8 @@
 }
 
 /* small mobiles */
-@media (max-width: 480px) { 
-    #skills .imgs {
-        width: 20rem;
-        justify-content: space-between;
+@media (max-width: 480px) {
+    #skills .skill_block {
+        padding: 0;
     }
 }

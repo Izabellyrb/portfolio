@@ -49,13 +49,12 @@ del {
 @media (max-width: 480px) { 
     .icon {
         width: 8rem;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
     #contacts .imgs {
-        width: 20rem;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-self: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
     }
 
 }
