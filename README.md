@@ -2,7 +2,7 @@
 
 Resumo do meu progresso como desenvolvedora, incluindo ferramentas utilizadas e principais projetos trabalhados até o momento.
 
-**<p align="center"> Acesse clicando [aqui 💜](https://izabellyrb.github.io/portfolio/) </p>**
+**<p align="center"> Acesse clicando [aqui 💜](https://izabrito.com.br/) </p>**
 
 <br>
 
