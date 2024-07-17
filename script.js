@@ -6,7 +6,6 @@ menuItems.forEach(item => {
     item.addEventListener('click', scrollToId);
 })
 
-// identifies the event (click) and scrolls to href
 function scrollToId(event) {
     event.preventDefault();
     const element = event.target;
@@ -21,7 +20,7 @@ function scrollToId(event) {
 
 /* typing effect */
 
-const title = document.querySelector('#color');
+const title = document.querySelector('#main');
 
 function typeWriter(element) {
     const textArray = element.innerHTML.split('');
@@ -102,3 +101,9 @@ chk.addEventListener('change', ({target}) => {
 })
 
 
+/* footer */
+document.addEventListener('DOMContentLoaded', function() {
+    const yearSpan = document.getElementById('currentYear');
+    const currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+});
