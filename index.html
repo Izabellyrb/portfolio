@@ -33,7 +33,7 @@
                 <li><a id="five" href="#projects">PROJETOS</a></li>
                 <li><a id="six" href="#contacts">CONTATOS</a></li>
             </ul>
-                    
+
             <div class="theme">
                 <input type="checkbox" class="checkbox" id="chk"/>
                 <label class="label" for="chk">
@@ -57,7 +57,7 @@
         <section id="about" class="page">
             <h2 id="color" class="pageSub" data-animation="left">Um resuminho...</h2>
             <div class="myinfo" data-animation="right">
-                <p> Sou a Izabelly, tenho 25 anos e vivo em São Paulo. 
+                <p> Sou a Izabelly, tenho 27 anos e vivo em São Paulo.
                     Sou formada em Análise e Desenvolvimento de Sistemas e hoje trabalho como desenvolvedora backend,
                     criando soluções para diversos tipos de problemas e aprendendo um pouquinho todo dia :) </p>
                 <img class="foto" src="./images/iza.gif" alt="Iza">
@@ -67,23 +67,27 @@
         <!-- Skills -->
         <section id="skills" class="page">
             <h2 id="color" class="pageSub" data-animation="left">Habilidades</h2>
-            <p data-animation="left"> Tenho experiência com essas tecnologias: </p> 
+            <p data-animation="left"> Tenho experiência com essas tecnologias: </p>
             <div class="imgs" data-animation="right">
-                <div class="skill_block"> 
+                <div class="skill_block">
                     <img class="img" src="./images/ruby.png" alt="icone_ruby">
                     <p class="skill_label"> Ruby </p>
                 </div>
-                <div class="skill_block"> 
+                <div class="skill_block">
                     <img class="img" src="./images/rails.png" alt="icone_rails">
                     <p class="skill_label"> Ruby on Rails </p>
-                </div> 
+                </div>
                 <div class="skill_block">
                     <img class="img" src="./images/git.png" alt="icone_git">
                     <p class="skill_label"> Git </p>
                 </div>
                 <div class="skill_block">
-                    <img class="img" src="./images/sqlite.png" alt="icone_sqlite">
-                    <p class="skill_label"> Sqlite </p>
+                    <img class="img2" src="./images/mysql.png" alt="icone_mysql">
+                    <p class="skill_label"> MySQL </p>
+                </div>
+                <div class="skill_block">
+                    <img class="img" src="./images/postman.png" alt="icone_postman">
+                    <p class="skill_label"> Postman </p>
                 </div>
                 <div class="skill_block">
                     <img class="img" src="./images/wordpress.png" alt="icone_wordpress">
@@ -92,10 +96,6 @@
                 <div class="skill_block">
                     <img class="img" src="./images/docker.png" alt="icone_docker">
                     <p class="skill_label"> Docker </p>
-                </div>
-                <div class="skill_block">
-                    <img class="img" src="./images/py.png" alt="icone_python">
-                    <p class="skill_label"> Python </p>
                 </div>
                 <div class="skill_block">
                     <img class="img" src="./images/js.png" alt="icone_javascript">
@@ -122,9 +122,37 @@
         <div class="projects" data-animation="right">
 
             <figure class="project">
+                <img src="./images/projects/api-icon.png" class="api_image">
+                <figcaption>
+                    <p class="pinfo">Post&Review</p>
+                    <p class="psubinfo">API que simula a criação, avaliação, e média de pontuação de posts.</p>
+                    <p class="tech">Ruby on rails</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Izabellyrb/postreview">
+                            <button class="btn">Visitar o repositório</button>
+                        </a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
+                <img src="./images/projects/api-icon.png" class="api_image">
+                <figcaption>
+                    <p class="pinfo">Employee Feedback</p>
+                    <p class="psubinfo">API que faz o processamento e análise do feedback de funcionários baseado em arquivos csv.</p>
+                    <p class="tech">Ruby on rails</p>
+                    <div class="buttons">
+                        <a href="https://github.com/Izabellyrb/employee_feedback">
+                            <button class="btn">Visitar o repositório</button>
+                        </a>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="project">
                 <img src="./images/projects/csvsplitter.png">
                 <figcaption>
-                    <p class="pinfo">csvsplitter</p>
+                    <p class="pinfo">CSVSplitter</p>
                     <p class="psubinfo">API/App que permitem a divisão de arquivos csv em partes menores.</p>
                     <p class="tech">Ruby on rails</p>
                     <div class="buttons">
@@ -183,21 +211,6 @@
                     <div class="buttons">
                         <a href="https://github.com/izabellyrb/freight-app">
                             <button class="btn">Visitar o repositório</button></a>
-                    </div>
-                </figcaption>
-            </figure>
-
-            <figure id="player" class="project">
-                <img src="./images/projects/cecaf.png">
-                <figcaption>
-                    <p class="pinfo">CECAF</p>
-                    <p class="psubinfo">Site institucional, com informações sobre um centro educacional</p>
-                    <p class="tech">HTML/CSS/Javascript</p>
-                    <div class="buttons">
-                        <a href="https://izabellyrb.github.io/projeto-cecaf/">
-                            <button class="btn">Visitar o projeto</button></a>
-                        <a href="https://github.com/Izabellyrb/projeto-cecaf">
-                            <button class="btn">Ver o repositório</button></a>
                     </div>
                 </figcaption>
             </figure>

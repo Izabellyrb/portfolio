@@ -10,12 +10,17 @@
     padding: 0 2rem;
 }
 
-#skills .img:hover {
+#skills .img:hover, .img2:hover {
     transform: rotate(10deg)
 }
 
 #skills .img {
     width: 10rem;
+    padding: 0 1rem;
+}
+
+#skills .img2 {
+    width: 14rem;
     padding: 0 1rem;
 }
 
